@@ -1,14 +1,15 @@
 <template lang="jade">
   div
-    p {{greeting}}
-    input(v-model="greeting")
-    button(@click="click") Klick mich!
+    h1 Landing Page
+    p blabla marketing bs bla
+    p
+      router-link(to="/tictactoe") play tictactoe
 </template>
 
 <script lang="coffee">
-module.exports =
+export default
   data : ->
-    greeting : "Moin Welt!"
+    greeting : "Tach Erde!"
   methods :
     click : ->
       alert "Die Begrüßung lautet: '#{@greeting}'"

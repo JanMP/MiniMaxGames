@@ -1,15 +1,21 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import NewHello from '@/components/NewHello'
+import Landing from '@/components/landing'
+import TicTacToeBoard from '@/components/TicTacToeBoard'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
+      path: '/tictactoe',
+      name: 'tictactoe',
+      component: TicTacToeBoard
+    },
+    {
       path: '/',
-      name: 'NewHello',
-      component: NewHello
+      name: 'landing',
+      component: Landing
     }
   ]
 })
