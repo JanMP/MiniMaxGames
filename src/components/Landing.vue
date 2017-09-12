@@ -1,9 +1,11 @@
 <template lang="jade">
   div
-    h1 Landing Page
+    h1 MiniMaxGames
     p blabla marketing bs bla
     p
-      router-link(to="/tictactoe") play tictactoe
+      router-link(to="/tictactoe") play tictactoe <br>
+      router-link(to="/connect4") play connect4 <br>
+      router-link(to="/test") test
 </template>
 
 <script lang="coffee">
@@ -18,7 +20,7 @@ export default
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="sass">
 h1, h2
-  font-weight: normal
+  // font-weight: normal
 
 ul
   list-style-type: none

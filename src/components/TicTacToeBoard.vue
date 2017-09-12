@@ -62,7 +62,7 @@ export default
       result
 </script>
 
-<style lang="sass">
+<style scoped lang="sass">
   .gameContainer
     width : 200px
     margin : auto
